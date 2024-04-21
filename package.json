@@ -1,6 +1,7 @@
 {
+  "homepage": "https://spsomnath.github.io/React-NoteApp",
   "name": "frontend",
-  "proxy": "http://127.0.0.1:8000",
+  "proxy": "https://codeonsp.me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
