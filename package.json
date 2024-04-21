@@ -1,7 +1,6 @@
 {
   "homepage": "https://spsomnath.github.io/React-NoteApp",
   "name": "frontend",
-  "proxy": "https://codeonsp.me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
