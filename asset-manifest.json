@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-NoteApp/static/css/main.6b684d10.css",
+    "main.js": "/React-NoteApp/static/js/main.1a9a2e8b.js",
+    "index.html": "/React-NoteApp/index.html",
+    "static/media/add.svg": "/React-NoteApp/static/media/add.46649ec18651e6acaff7abd61debf875.svg",
+    "static/media/arrow-left.svg": "/React-NoteApp/static/media/arrow-left.677efaf027256df0f460c0e1514a9fbb.svg",
+    "main.6b684d10.css.map": "/React-NoteApp/static/css/main.6b684d10.css.map",
+    "main.1a9a2e8b.js.map": "/React-NoteApp/static/js/main.1a9a2e8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b684d10.css",
+    "static/js/main.1a9a2e8b.js"
+  ]
+}
