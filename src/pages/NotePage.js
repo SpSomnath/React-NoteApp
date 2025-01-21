@@ -13,7 +13,7 @@ const NotePage = () => {
 
   let getNote = async () => {
     if(id === 'new') return
-    let response = await fetch(`https://codeonsp.me/api/note/${id}/`);
+    let response = await fetch(`https://codeonsp.tech/api/note/${id}/`);
     let data = await response.json();
     setNote(data);
   };
@@ -29,7 +29,7 @@ const NotePage = () => {
   };
 
   let updateNote = async () => {
-    fetch(`https://codeonsp.me/api/note/${id}/update/`, {
+    fetch(`https://codeonsp.tech/api/note/${id}/update/`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -51,7 +51,7 @@ const NotePage = () => {
   };
 
   let deleteNote = async () => {
-    fetch(`https://codeonsp.me/api/note/${id}/delete/`, {
+    fetch(`https://codeonsp.tech/api/note/${id}/delete/`, {
       method: "DELETE",
       headers: {
         "Content-type": "application/json",
