@@ -12,7 +12,7 @@ function NotesListPage() {
     },[])
 
     let gettNotes = async ()=> {
-       let response = await fetch('https://codeonsp.me/api/notes/')
+       let response = await fetch('https://codeonsp.tech/api/notes/')
        let data = await  response.json()
        setNotes(data)
     }
